@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Charts</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>      
+        <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
+    </head>
+    <body>
+        <div id = "ViewsByDay">
+            <canvas id="myChart1" width="1500" height="800"></canvas>
+        </div>
+        <div id = "TotalViews">
+            <canvas id="myChart2" width="1500" height="800"></canvas>
+        </div>
+        <div id="buttons">
+            <button id="chart1">Daily</button>
+            <button id="chart2">Total</button>
+        </div>
+        <script src="data.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

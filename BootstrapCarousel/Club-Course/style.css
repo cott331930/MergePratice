@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+ 
+table{
+    width: 33%;
+    margin: auto;
+    font-size: 1.7em;
+    border: 6.6px groove rgb(255, 37, 92);
+}
+ 
+td{
+    border-top: 3.3px groove rgb(241, 85, 255);
+}
+ 
+th{
+    border: 3.3px solid rgb(255, 138, 4);
+}

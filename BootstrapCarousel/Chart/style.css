@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#TotalViews {
+  display: none;
+}
+
+
+  
